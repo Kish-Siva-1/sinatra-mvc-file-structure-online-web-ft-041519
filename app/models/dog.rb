@@ -1,6 +1,8 @@
 class Dog
   
-  def initialize(name: name, type: type, age: age)
+  attr_accessor :dog, :name, :type
+  
+  def initialize(name, type, age)
     @name = name
     @type = type 
     @age = age 
